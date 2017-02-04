@@ -1,0 +1,18 @@
+//sass sass/style.scss:style.css --watch
+//add triangle for nav
+ul.navbar-nav.triangle{
+  img{
+    position: absolute;
+    bottom: 0;
+    left:23px;
+    width:20px;
+    height:10px;
+    display: none;
+    z-index:10;
+  }
+  li.active{
+    img{
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,84 @@
+.navbar-default {
+  background-color: #ffc000; }
+
+.user-img {
+  display: inline-block;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  background-color: #FF9900;
+  margin-left: -15px;
+  margin-bottom: -5px;
+  height: 50px; }
+  .user-img img {
+    width: 40px;
+    height: 40px; }
+
+.username {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 0;
+  background-color: #ffc000;
+  cursor: pointer;
+  font-size: 18px;
+  position: relative;
+  top: 1px; }
+
+.navbar-right {
+  overflow: hidden; }
+  .navbar-right .navbar-form input {
+    border: 0;
+    padding-left: 32px; }
+  .navbar-right .navbar-form span {
+    border: 0; }
+  .navbar-right .navbar-form img {
+    height: 22px;
+    width: 22px;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    z-index: 10; }
+  .navbar-right .navbar-form .search-icon {
+    cursor: pointer; }
+  .navbar-right .ring-img {
+    width: 26px;
+    height: 26px;
+    margin-top: 12px; }
+
+.navbar ul.navbar-nav a {
+  color: #000;
+  font-size: 18px; }
+.navbar ul.navbar-nav li.active a {
+  background-color: #ffc000 !important;
+  color: #fff; }
+.navbar ul.navbar-nav li.active a:hover, .navbar ul.navbar-nav li.active a:focus {
+  color: #fff !important; }
+
+.navbar-default {
+  margin-bottom: 0;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0; }
+
+.nav-two {
+  position: relative;
+  background-color: #000;
+  height: 40px; }
+  .nav-two a, .nav-two a:hover, .nav-two a:focus {
+    color: #fff;
+    text-decoration: none; }
+  .nav-two p {
+    line-height: 40px; }
+  .nav-two p.active {
+    background-color: #F29F3F; }
+  .nav-two .arrow-up {
+    z-index: 10;
+    font-size: 16px;
+    position: absolute;
+    left: 315px;
+    color: #000;
+    top: -11px; }
+
+/*# sourceMappingURL=app.component.css.map */
