@@ -1,0 +1,12 @@
+ul.navbar-nav.triangle img {
+  position: absolute;
+  bottom: 0;
+  left: 23px;
+  width: 20px;
+  height: 10px;
+  display: none;
+  z-index: 10; }
+ul.navbar-nav.triangle li.active img {
+  display: block; }
+
+/*# sourceMappingURL=style.css.map */

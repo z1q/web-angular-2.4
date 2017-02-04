@@ -1,2 +1,43 @@
-<h1>hello!{{appName}}</h1>
-<p>{{appName}}</p>
+<div class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div href="#" class="user-img">
+        <img class="img-circle" src="assets/img/anna.jpg" alt="">
+      </div>
+      <p class="username logout"><span class="name"></span>(退出)</p>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav triangle">
+        <li routerLinkActive="active">
+          <img class="hidden-xs" src="assets/img/triangle.png" alt="">
+          <a routerLink="/u">我的</a></li>
+        <li routerLinkActive="active">
+          <img class="hidden-xs" src="assets/img/triangle.png" alt="">
+          <a routerLink="/home">首页</a></li>
+        <li routerLinkActive="active">
+          <img class="hidden-xs" src="assets/img/triangle.png" alt="">
+          <a routerLink="/experience">经验</a></li>
+      </ul>
+
+      <div class="nav navbar-nav navbar-right">
+        <form class="navbar-form navbar-left" role="search">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="查找朋友/目标">
+                    <span class="input-group-addon search-icon">
+                        <i class="fa fa-search" aria-hidden="true"></i></span>
+            <img src="assets/img/fendouji.png" alt="">
+          </div>
+        </form>
+        <img src="assets/img/ring.png" class="ring-img" alt="">
+      </div>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</div>
+<router-outlet></router-outlet>
