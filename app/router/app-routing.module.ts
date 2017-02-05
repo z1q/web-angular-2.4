@@ -9,13 +9,7 @@ import {NotFoundPage} from '../pages/not-found/not-found';
 let routes:Routes = [
   {
     path: 'home',
-    component: HomePage,
-    children:[
-      {
-        path:'test',
-        component:UserPage
-      }
-    ]
+    component: HomePage
   },
   {
     path: 'experience',

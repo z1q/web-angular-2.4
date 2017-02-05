@@ -11,6 +11,7 @@ import {HomePage} from './pages/home/home';
 import {ExperiencePage} from './pages/experience/experience';
 import {UserPage} from './pages/user/user';
 import {NotFoundPage} from './pages/not-found/not-found';
+import {MomentPage} from './pages/moment/moment';
 
 
 //@()是ts的装饰器
@@ -26,7 +27,8 @@ import {NotFoundPage} from './pages/not-found/not-found';
     HomePage,
     ExperiencePage,
     UserPage,
-    NotFoundPage
+    NotFoundPage,
+    MomentPage
   ],
   providers: [
   ],
