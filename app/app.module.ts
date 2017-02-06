@@ -13,6 +13,7 @@ import {UserPage} from './pages/user/user';
 import {NotFoundPage} from './pages/not-found/not-found';
 import {MomentPage} from './pages/moment/moment';
 
+import {MomentService} from './service/moment';
 
 //@()是ts的装饰器
 @NgModule({
@@ -31,6 +32,7 @@ import {MomentPage} from './pages/moment/moment';
     MomentPage
   ],
   providers: [
+    MomentService
   ],
   bootstrap: [AppComponent]
 })

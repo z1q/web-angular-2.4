@@ -1,16 +1,16 @@
 <div class="moment">
   <div class="header">
     <div class="header-left">
-      <img class="header-img img-circle" [src]="userImg" alt="">
+      <img class="header-img img-circle" [src]="moment.userImg" alt="">
     </div>
     <div class="header-right">
-      <h4>{{userName}}</h4>
-      <p>正在为<span class="text-primary">{{userTarget}}</span>目标而奋斗</p>
+      <h4>{{moment.userName}}</h4>
+      <p>正在为<span class="text-primary">{{moment.userTarget}}</span>目标而奋斗</p>
     </div>
   </div>
   <div class="content">
-    <p class="target-now">{{momentState}} <span class="text-primary">{{targetNow}}</span></p>
-    <p class="speak">{{content}} </p>
+    <p class="target-now">{{moment.momentState}} <span class="text-primary">{{moment.targetNow}}</span></p>
+    <p class="speak">{{moment.content}} </p>
   </div>
 </div>
 
